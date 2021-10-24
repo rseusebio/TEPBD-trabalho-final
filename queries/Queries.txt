@@ -1,0 +1,200 @@
+# PERGUNTAS 1 
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbp: <http://dbpedia.org/property/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+select 
+?name ?label (?d as ?Date) (sum(?qnt) as ?Total_amount)
+from named <http://example.com/chloroquine>
+where 
+{ 
+    GRAPH  <http://example.com/chloroquine> 
+    {
+        ?s dbp:order ?chloro.
+        ?chloro dbo:date ?date .
+        ?chloro dbp:amount ?qnt .
+        ?chloro rdfs:label ?label .
+        ?s rdf:name ?name .
+
+        BIND(str(?date) as ?str_date) .
+        BIND(substr(?str_date, 0, strlen(?str_date) - 2) as ?d) .
+    } 
+}
+group by ?name ?d ?label
+order by ?name ?d ?label
+
+
+# PERGUNTAS 2 
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbp: <http://dbpedia.org/property/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+select 
+?name (?d as ?Date) (sum(?qnt) as ?Total_amount)
+from named <http://example.com/ventilator>
+where 
+{ 
+ 
+    GRAPH  <http://example.com/ventilator> 
+    {
+        ?s dbp:order ?vent.
+        ?vent dbo:date ?date .
+        ?vent dbp:amount ?qnt .
+        ?s rdf:name ?name .
+
+        BIND(str(?date) as ?str_date) .
+        BIND(substr(?str_date, 0, strlen(?str_date) - 2) as ?d) .
+    } 
+   
+}
+group by ?name ?d
+order by ?name ?d 
+
+
+# PERGUNTA 3 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbp: <http://dbpedia.org/property/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+select 
+?name (sum(?price) as ?Total_amount)
+from named <http://example.com/chloroquine>
+where 
+{ 
+ 
+    GRAPH  <http://example.com/chloroquine> 
+    {
+        ?s dbp:order ?chloro.
+        ?chloro dbo:price ?price .
+        ?s rdf:name ?name .
+
+        BIND(str(?date) as ?str_date) .
+        BIND(substr(?str_date, 0, strlen(?str_date) - 2) as ?d) .
+    } 
+   
+}
+group by ?name
+order by ?name 
+
+
+
+# PERGUNTA 4 
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbp: <http://dbpedia.org/property/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+select 
+?name (sum(?price) as ?Total_amount)
+from named <http://example.com/ventilator>
+where 
+{ 
+ 
+    GRAPH  <http://example.com/ventilator> 
+    {
+        ?s dbp:order ?vent.
+        ?vent dbo:price ?price .
+        ?s rdf:name ?name .
+
+        BIND(str(?date) as ?str_date) .
+        BIND(substr(?str_date, 0, strlen(?str_date) - 2) as ?d) .
+    } 
+   
+}
+group by ?name
+order by ?name 
+
+
+
+# PERGUNTA ? # multiplicar por mil
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbp: <http://dbpedia.org/property/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+select 
+?name (sum(?price) as ?Total_amount) ?pop (?Total_amount / ?pop as ?r)
+from named <http://example.com/chloroquine>
+where 
+{ 
+    GRAPH  <http://example.com/chloroquine> 
+    {
+        ?s dbp:order ?c.
+        ?c dbo:price ?price .
+        ?s rdf:name ?name .
+	
+        BIND(str(?date) as ?str_date) .
+        BIND(substr(?str_date, 0, strlen(?str_date) - 2) as ?d) .
+        
+    } 
+    
+    SERVICE <https://dbpedia.org/sparql>
+    {
+        ?s dbp:populationTotal ?pop
+    }
+   
+}
+group by  ?name ?pop
+order by  ?name ?pop
+
+
+
+
+
+# PERGUNTA 7
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbp: <http://dbpedia.org/property/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+select 
+?name (sum(?price) as ?Total_amount) ?pop (?Total_amount / ?pop as ?r)
+from named <http://example.com/ventilator>
+where 
+{ 
+    GRAPH  <http://example.com/ventilator> 
+    {
+        ?s dbp:order ?c.
+        ?c dbo:price ?price .
+        ?s rdf:name ?name .
+	
+        BIND(str(?date) as ?str_date) .
+        BIND(substr(?str_date, 0, strlen(?str_date) - 2) as ?d) .
+        
+    } 
+    
+    SERVICE <https://dbpedia.org/sparql>
+    {
+        ?s dbp:populationTotal ?pop
+    }
+   
+}
+group by  ?name ?pop
+order by  ?name ?pop
+
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbp: <http://dbpedia.org/property/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+select 
+?name ?label (sum(?qnt) as ?Total_quantity)
+from named <http://example.com/ventilator>
+where 
+{ 
+    GRAPH  <http://example.com/ventilator> 
+    {
+        ?s dbp:order ?c.
+        ?c dbp:amount ?qnt .
+        ?c rdfs:label ?label .
+        ?s rdf:name ?name .
+	
+        BIND(str(?date) as ?str_date) .
+        BIND(substr(?str_date, 0, strlen(?str_date) - 2) as ?d) .
+        
+    } 
+   
+}
+group by  ?name ?label
+order by  ?name ?label

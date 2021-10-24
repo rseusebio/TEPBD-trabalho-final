@@ -1,0 +1,1795 @@
+@prefix : <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbr: <http://dbpedia.org/resouce/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wiki-en: <http://en.wikipedia.org/wiki/> .
+
+<http://dbpedia.org/resource/Santa_Catarina_(state)>  rdf:name "SANTA CATARINA"@pt .
+
+:chloroquine_1 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "23000"^^xsd:integer ;
+                 dbo:price "69000"^^xsd:double ;
+                 dbo:date "2020-08-24"^^xsd:date .
+
+<http://dbpedia.org/resource/Santa_Catarina_(state)> dbp:order :chloroquine_1 .
+
+:chloroquine_2 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "1200"^^xsd:integer ;
+                 dbo:price "3600"^^xsd:double ;
+                 dbo:date "2020-07-21"^^xsd:date .
+
+<http://dbpedia.org/resource/Santa_Catarina_(state)> dbp:order :chloroquine_2 .
+
+:chloroquine_3 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "9500"^^xsd:integer ;
+                 dbo:price "655.5"^^xsd:double ;
+                 dbo:date "2020-07-11"^^xsd:date .
+
+<http://dbpedia.org/resource/Santa_Catarina_(state)> dbp:order :chloroquine_3 .
+
+:chloroquine_4 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "22000"^^xsd:integer ;
+                 dbo:price "1518.0"^^xsd:double ;
+                 dbo:date "2020-03-28"^^xsd:date .
+
+<http://dbpedia.org/resource/Santa_Catarina_(state)> dbp:order :chloroquine_4 .
+
+:chloroquine_5 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "27000"^^xsd:integer ;
+                 dbo:price "81000"^^xsd:double ;
+                 dbo:date "2020-04-20"^^xsd:date .
+
+<http://dbpedia.org/resource/Santa_Catarina_(state)> dbp:order :chloroquine_5 .
+
+:chloroquine_6 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "38000"^^xsd:integer ;
+                 dbo:price "114000"^^xsd:double ;
+                 dbo:date "2020-08-20"^^xsd:date .
+
+<http://dbpedia.org/resource/Santa_Catarina_(state)> dbp:order :chloroquine_6 .
+
+:chloroquine_7 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "30000"^^xsd:integer ;
+                 dbo:price "90000"^^xsd:double ;
+                 dbo:date "2020-08-17"^^xsd:date .
+
+<http://dbpedia.org/resource/Santa_Catarina_(state)> dbp:order :chloroquine_7 .
+
+:chloroquine_8 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "160500"^^xsd:integer ;
+                 dbo:price "481500"^^xsd:double ;
+                 dbo:date "2020-09-08"^^xsd:date .
+
+<http://dbpedia.org/resource/Santa_Catarina_(state)> dbp:order :chloroquine_8 .
+
+:chloroquine_9 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "160000"^^xsd:integer ;
+                 dbo:price "480000"^^xsd:double ;
+                 dbo:date "2020-09-14"^^xsd:date .
+
+<http://dbpedia.org/resource/Santa_Catarina_(state)> dbp:order :chloroquine_9 .
+
+:chloroquine_10 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "63000"^^xsd:integer ;
+                 dbo:price "189000"^^xsd:double ;
+                 dbo:date "2020-09-18"^^xsd:date .
+
+<http://dbpedia.org/resource/Santa_Catarina_(state)> dbp:order :chloroquine_10 .
+
+:chloroquine_11 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "3000"^^xsd:integer ;
+                 dbo:price "9000"^^xsd:double ;
+                 dbo:date "2020-09-17"^^xsd:date .
+
+<http://dbpedia.org/resource/Santa_Catarina_(state)> dbp:order :chloroquine_11 .
+
+<http://dbpedia.org/resource/Rio_Grande_do_Sul>  rdf:name "RIO GRANDE DO SUL"@pt .
+
+:chloroquine_12 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "53000"^^xsd:integer ;
+                 dbo:price "159000"^^xsd:double ;
+                 dbo:date "2020-08-18"^^xsd:date .
+
+<http://dbpedia.org/resource/Rio_Grande_do_Sul> dbp:order :chloroquine_12 .
+
+:chloroquine_13 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "500"^^xsd:integer ;
+                 dbo:price "1500"^^xsd:double ;
+                 dbo:date "2020-09-28"^^xsd:date .
+
+<http://dbpedia.org/resource/Rio_Grande_do_Sul> dbp:order :chloroquine_13 .
+
+:chloroquine_14 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "323500"^^xsd:integer ;
+                 dbo:price "970500"^^xsd:double ;
+                 dbo:date "2020-07-20"^^xsd:date .
+
+<http://dbpedia.org/resource/Rio_Grande_do_Sul> dbp:order :chloroquine_14 .
+
+:chloroquine_15 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "25000"^^xsd:integer ;
+                 dbo:price "1725.0"^^xsd:double ;
+                 dbo:date "2020-03-31"^^xsd:date .
+
+<http://dbpedia.org/resource/Rio_Grande_do_Sul> dbp:order :chloroquine_15 .
+
+:chloroquine_16 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "22000"^^xsd:integer ;
+                 dbo:price "66000"^^xsd:double ;
+                 dbo:date "2020-04-22"^^xsd:date .
+
+<http://dbpedia.org/resource/Rio_Grande_do_Sul> dbp:order :chloroquine_16 .
+
+:chloroquine_17 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "2000"^^xsd:integer ;
+                 dbo:price "6000"^^xsd:double ;
+                 dbo:date "2020-08-26"^^xsd:date .
+
+<http://dbpedia.org/resource/Rio_Grande_do_Sul> dbp:order :chloroquine_17 .
+
+:chloroquine_18 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "34000"^^xsd:integer ;
+                 dbo:price "102000"^^xsd:double ;
+                 dbo:date "2020-08-24"^^xsd:date .
+
+<http://dbpedia.org/resource/Rio_Grande_do_Sul> dbp:order :chloroquine_18 .
+
+:chloroquine_19 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "4500"^^xsd:integer ;
+                 dbo:price "13500"^^xsd:double ;
+                 dbo:date "2020-08-25"^^xsd:date .
+
+<http://dbpedia.org/resource/Rio_Grande_do_Sul> dbp:order :chloroquine_19 .
+
+:chloroquine_20 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "35500"^^xsd:integer ;
+                 dbo:price "106500"^^xsd:double ;
+                 dbo:date "2020-08-21"^^xsd:date .
+
+<http://dbpedia.org/resource/Rio_Grande_do_Sul> dbp:order :chloroquine_20 .
+
+:chloroquine_21 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "19500"^^xsd:integer ;
+                 dbo:price "58500"^^xsd:double ;
+                 dbo:date "2020-09-08"^^xsd:date .
+
+<http://dbpedia.org/resource/Rio_Grande_do_Sul> dbp:order :chloroquine_21 .
+
+:chloroquine_22 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "106500"^^xsd:integer ;
+                 dbo:price "319500"^^xsd:double ;
+                 dbo:date "2020-09-14"^^xsd:date .
+
+<http://dbpedia.org/resource/Rio_Grande_do_Sul> dbp:order :chloroquine_22 .
+
+:chloroquine_23 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "24000"^^xsd:integer ;
+                 dbo:price "72000"^^xsd:double ;
+                 dbo:date "2021-01-13"^^xsd:date .
+
+<http://dbpedia.org/resource/Rio_Grande_do_Sul> dbp:order :chloroquine_23 .
+
+<http://dbpedia.org/resource/Paraná_(state)>  rdf:name "PARANÁ"@pt .
+
+:chloroquine_24 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "2000"^^xsd:integer ;
+                 dbo:price "6000"^^xsd:double ;
+                 dbo:date "2020-08-18"^^xsd:date .
+
+<http://dbpedia.org/resource/Paraná_(state)> dbp:order :chloroquine_24 .
+
+:chloroquine_25 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "17000"^^xsd:integer ;
+                 dbo:price "1173.0"^^xsd:double ;
+                 dbo:date "2020-03-28"^^xsd:date .
+
+<http://dbpedia.org/resource/Paraná_(state)> dbp:order :chloroquine_25 .
+
+:chloroquine_26 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "27000"^^xsd:integer ;
+                 dbo:price "81000"^^xsd:double ;
+                 dbo:date "2020-04-23"^^xsd:date .
+
+<http://dbpedia.org/resource/Paraná_(state)> dbp:order :chloroquine_26 .
+
+:chloroquine_27 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "18000"^^xsd:integer ;
+                 dbo:price "1242.0"^^xsd:double ;
+                 dbo:date "2020-05-02"^^xsd:date .
+
+<http://dbpedia.org/resource/Paraná_(state)> dbp:order :chloroquine_27 .
+
+:chloroquine_28 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "500"^^xsd:integer ;
+                 dbo:price "1500"^^xsd:double ;
+                 dbo:date "2020-08-20"^^xsd:date .
+
+<http://dbpedia.org/resource/Paraná_(state)> dbp:order :chloroquine_28 .
+
+:chloroquine_29 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "26000"^^xsd:integer ;
+                 dbo:price "78000"^^xsd:double ;
+                 dbo:date "2020-08-25"^^xsd:date .
+
+<http://dbpedia.org/resource/Paraná_(state)> dbp:order :chloroquine_29 .
+
+<http://dbpedia.org/resource/Mato_Grosso>  rdf:name "MATO GROSSO"@pt .
+
+:chloroquine_30 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "1000"^^xsd:integer ;
+                 dbo:price "3000"^^xsd:double ;
+                 dbo:date "2020-08-21"^^xsd:date .
+
+<http://dbpedia.org/resource/Mato_Grosso> dbp:order :chloroquine_30 .
+
+:chloroquine_31 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "500"^^xsd:integer ;
+                 dbo:price "1500"^^xsd:double ;
+                 dbo:date "2020-09-08"^^xsd:date .
+
+<http://dbpedia.org/resource/Mato_Grosso> dbp:order :chloroquine_31 .
+
+:chloroquine_32 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "1000"^^xsd:integer ;
+                 dbo:price "3000"^^xsd:double ;
+                 dbo:date "2020-08-20"^^xsd:date .
+
+<http://dbpedia.org/resource/Mato_Grosso> dbp:order :chloroquine_32 .
+
+:chloroquine_33 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "500"^^xsd:integer ;
+                 dbo:price "1500"^^xsd:double ;
+                 dbo:date "2020-08-25"^^xsd:date .
+
+<http://dbpedia.org/resource/Mato_Grosso> dbp:order :chloroquine_33 .
+
+:chloroquine_34 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "13500"^^xsd:integer ;
+                 dbo:price "40500"^^xsd:double ;
+                 dbo:date "2020-08-28"^^xsd:date .
+
+<http://dbpedia.org/resource/Mato_Grosso> dbp:order :chloroquine_34 .
+
+:chloroquine_35 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "2000"^^xsd:integer ;
+                 dbo:price "6000"^^xsd:double ;
+                 dbo:date "2020-08-31"^^xsd:date .
+
+<http://dbpedia.org/resource/Mato_Grosso> dbp:order :chloroquine_35 .
+
+:chloroquine_36 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "17500"^^xsd:integer ;
+                 dbo:price "52500"^^xsd:double ;
+                 dbo:date "2020-08-27"^^xsd:date .
+
+<http://dbpedia.org/resource/Mato_Grosso> dbp:order :chloroquine_36 .
+
+:chloroquine_37 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "2000"^^xsd:integer ;
+                 dbo:price "6000"^^xsd:double ;
+                 dbo:date "2020-09-04"^^xsd:date .
+
+<http://dbpedia.org/resource/Mato_Grosso> dbp:order :chloroquine_37 .
+
+:chloroquine_38 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "10000"^^xsd:integer ;
+                 dbo:price "30000"^^xsd:double ;
+                 dbo:date "2020-07-22"^^xsd:date .
+
+<http://dbpedia.org/resource/Mato_Grosso> dbp:order :chloroquine_38 .
+
+:chloroquine_39 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "9000"^^xsd:integer ;
+                 dbo:price "27000"^^xsd:double ;
+                 dbo:date "2020-07-23"^^xsd:date .
+
+<http://dbpedia.org/resource/Mato_Grosso> dbp:order :chloroquine_39 .
+
+:chloroquine_40 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "80000"^^xsd:integer ;
+                 dbo:price "5520.0"^^xsd:double ;
+                 dbo:date "2020-07-29"^^xsd:date .
+
+<http://dbpedia.org/resource/Mato_Grosso> dbp:order :chloroquine_40 .
+
+:chloroquine_41 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "3000"^^xsd:integer ;
+                 dbo:price "207.0"^^xsd:double ;
+                 dbo:date "2020-03-29"^^xsd:date .
+
+<http://dbpedia.org/resource/Mato_Grosso> dbp:order :chloroquine_41 .
+
+:chloroquine_42 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "6000"^^xsd:integer ;
+                 dbo:price "18000"^^xsd:double ;
+                 dbo:date "2020-04-24"^^xsd:date .
+
+<http://dbpedia.org/resource/Mato_Grosso> dbp:order :chloroquine_42 .
+
+:chloroquine_43 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "6000"^^xsd:integer ;
+                 dbo:price "414.0"^^xsd:double ;
+                 dbo:date "2020-05-04"^^xsd:date .
+
+<http://dbpedia.org/resource/Mato_Grosso> dbp:order :chloroquine_43 .
+
+:chloroquine_44 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "2000"^^xsd:integer ;
+                 dbo:price "6000"^^xsd:double ;
+                 dbo:date "2020-08-19"^^xsd:date .
+
+<http://dbpedia.org/resource/Mato_Grosso> dbp:order :chloroquine_44 .
+
+<http://dbpedia.org/resource/Minas_Gerais>  rdf:name "MINAS GERAIS"@pt .
+
+:chloroquine_45 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "28500"^^xsd:integer ;
+                 dbo:price "85500"^^xsd:double ;
+                 dbo:date "2020-09-02"^^xsd:date .
+
+<http://dbpedia.org/resource/Minas_Gerais> dbp:order :chloroquine_45 .
+
+:chloroquine_46 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "4500"^^xsd:integer ;
+                 dbo:price "13500"^^xsd:double ;
+                 dbo:date "2020-08-24"^^xsd:date .
+
+<http://dbpedia.org/resource/Minas_Gerais> dbp:order :chloroquine_46 .
+
+:chloroquine_47 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "27000"^^xsd:integer ;
+                 dbo:price "1863.0"^^xsd:double ;
+                 dbo:date "2020-03-30"^^xsd:date .
+
+<http://dbpedia.org/resource/Minas_Gerais> dbp:order :chloroquine_47 .
+
+:chloroquine_48 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "27000"^^xsd:integer ;
+                 dbo:price "81000"^^xsd:double ;
+                 dbo:date "2020-04-23"^^xsd:date .
+
+<http://dbpedia.org/resource/Minas_Gerais> dbp:order :chloroquine_48 .
+
+:chloroquine_49 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "31000"^^xsd:integer ;
+                 dbo:price "2139.0"^^xsd:double ;
+                 dbo:date "2020-05-04"^^xsd:date .
+
+<http://dbpedia.org/resource/Minas_Gerais> dbp:order :chloroquine_49 .
+
+:chloroquine_50 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "1000"^^xsd:integer ;
+                 dbo:price "3000"^^xsd:double ;
+                 dbo:date "2020-08-25"^^xsd:date .
+
+<http://dbpedia.org/resource/Minas_Gerais> dbp:order :chloroquine_50 .
+
+:chloroquine_51 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "500"^^xsd:integer ;
+                 dbo:price "1500"^^xsd:double ;
+                 dbo:date "2020-08-31"^^xsd:date .
+
+<http://dbpedia.org/resource/Minas_Gerais> dbp:order :chloroquine_51 .
+
+:chloroquine_52 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "1500"^^xsd:integer ;
+                 dbo:price "4500"^^xsd:double ;
+                 dbo:date "2020-09-08"^^xsd:date .
+
+<http://dbpedia.org/resource/Minas_Gerais> dbp:order :chloroquine_52 .
+
+:chloroquine_53 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "286000"^^xsd:integer ;
+                 dbo:price "858000"^^xsd:double ;
+                 dbo:date "2020-09-14"^^xsd:date .
+
+<http://dbpedia.org/resource/Minas_Gerais> dbp:order :chloroquine_53 .
+
+:chloroquine_54 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "10500"^^xsd:integer ;
+                 dbo:price "31500"^^xsd:double ;
+                 dbo:date "2020-12-29"^^xsd:date .
+
+<http://dbpedia.org/resource/Minas_Gerais> dbp:order :chloroquine_54 .
+
+:chloroquine_55 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "1500"^^xsd:integer ;
+                 dbo:price "4500"^^xsd:double ;
+                 dbo:date "2020-12-30"^^xsd:date .
+
+<http://dbpedia.org/resource/Minas_Gerais> dbp:order :chloroquine_55 .
+
+:chloroquine_56 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "3000"^^xsd:integer ;
+                 dbo:price "9000"^^xsd:double ;
+                 dbo:date "2021-01-09"^^xsd:date .
+
+<http://dbpedia.org/resource/Minas_Gerais> dbp:order :chloroquine_56 .
+
+:chloroquine_57 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "1500"^^xsd:integer ;
+                 dbo:price "4500"^^xsd:double ;
+                 dbo:date "2021-01-31"^^xsd:date .
+
+<http://dbpedia.org/resource/Minas_Gerais> dbp:order :chloroquine_57 .
+
+:chloroquine_58 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "8500"^^xsd:integer ;
+                 dbo:price "25500"^^xsd:double ;
+                 dbo:date "2021-01-13"^^xsd:date .
+
+<http://dbpedia.org/resource/Minas_Gerais> dbp:order :chloroquine_58 .
+
+<http://dbpedia.org/resource/Goiás>  rdf:name "GOIÁS"@pt .
+
+:chloroquine_59 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "34500"^^xsd:integer ;
+                 dbo:price "103500"^^xsd:double ;
+                 dbo:date "2020-08-24"^^xsd:date .
+
+<http://dbpedia.org/resource/Goiás> dbp:order :chloroquine_59 .
+
+:chloroquine_60 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "500"^^xsd:integer ;
+                 dbo:price "1500"^^xsd:double ;
+                 dbo:date "2020-08-31"^^xsd:date .
+
+<http://dbpedia.org/resource/Goiás> dbp:order :chloroquine_60 .
+
+:chloroquine_61 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "25000"^^xsd:integer ;
+                 dbo:price "75000"^^xsd:double ;
+                 dbo:date "2020-07-20"^^xsd:date .
+
+<http://dbpedia.org/resource/Goiás> dbp:order :chloroquine_61 .
+
+:chloroquine_62 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "6000"^^xsd:integer ;
+                 dbo:price "414.0"^^xsd:double ;
+                 dbo:date "2020-03-30"^^xsd:date .
+
+<http://dbpedia.org/resource/Goiás> dbp:order :chloroquine_62 .
+
+:chloroquine_63 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "8000"^^xsd:integer ;
+                 dbo:price "24000"^^xsd:double ;
+                 dbo:date "2020-04-21"^^xsd:date .
+
+<http://dbpedia.org/resource/Goiás> dbp:order :chloroquine_63 .
+
+:chloroquine_64 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "15000"^^xsd:integer ;
+                 dbo:price "1035.0"^^xsd:double ;
+                 dbo:date "2020-06-05"^^xsd:date .
+
+<http://dbpedia.org/resource/Goiás> dbp:order :chloroquine_64 .
+
+:chloroquine_65 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "3500"^^xsd:integer ;
+                 dbo:price "10500"^^xsd:double ;
+                 dbo:date "2020-08-25"^^xsd:date .
+
+<http://dbpedia.org/resource/Goiás> dbp:order :chloroquine_65 .
+
+:chloroquine_66 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "23000"^^xsd:integer ;
+                 dbo:price "69000"^^xsd:double ;
+                 dbo:date "2020-09-10"^^xsd:date .
+
+<http://dbpedia.org/resource/Goiás> dbp:order :chloroquine_66 .
+
+:chloroquine_67 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "12000"^^xsd:integer ;
+                 dbo:price "36000"^^xsd:double ;
+                 dbo:date "2020-10-16"^^xsd:date .
+
+<http://dbpedia.org/resource/Goiás> dbp:order :chloroquine_67 .
+
+:chloroquine_68 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "1500"^^xsd:integer ;
+                 dbo:price "4500"^^xsd:double ;
+                 dbo:date "2020-10-28"^^xsd:date .
+
+<http://dbpedia.org/resource/Goiás> dbp:order :chloroquine_68 .
+
+<http://dbpedia.org/resource/Bahia>  rdf:name "BAHIA"@pt .
+
+:chloroquine_69 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "63500"^^xsd:integer ;
+                 dbo:price "190500"^^xsd:double ;
+                 dbo:date "2020-08-25"^^xsd:date .
+
+<http://dbpedia.org/resource/Bahia> dbp:order :chloroquine_69 .
+
+:chloroquine_70 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "105500"^^xsd:integer ;
+                 dbo:price "316500"^^xsd:double ;
+                 dbo:date "2020-08-24"^^xsd:date .
+
+<http://dbpedia.org/resource/Bahia> dbp:order :chloroquine_70 .
+
+:chloroquine_71 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "40000"^^xsd:integer ;
+                 dbo:price "2760.0"^^xsd:double ;
+                 dbo:date "2020-06-29"^^xsd:date .
+
+<http://dbpedia.org/resource/Bahia> dbp:order :chloroquine_71 .
+
+:chloroquine_72 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "17000"^^xsd:integer ;
+                 dbo:price "1173.0"^^xsd:double ;
+                 dbo:date "2020-03-30"^^xsd:date .
+
+<http://dbpedia.org/resource/Bahia> dbp:order :chloroquine_72 .
+
+:chloroquine_73 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "24000"^^xsd:integer ;
+                 dbo:price "72000"^^xsd:double ;
+                 dbo:date "2020-04-27"^^xsd:date .
+
+<http://dbpedia.org/resource/Bahia> dbp:order :chloroquine_73 .
+
+:chloroquine_74 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "26000"^^xsd:integer ;
+                 dbo:price "78000"^^xsd:double ;
+                 dbo:date "2020-09-08"^^xsd:date .
+
+<http://dbpedia.org/resource/Bahia> dbp:order :chloroquine_74 .
+
+:chloroquine_75 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "4500"^^xsd:integer ;
+                 dbo:price "13500"^^xsd:double ;
+                 dbo:date "2020-09-22"^^xsd:date .
+
+<http://dbpedia.org/resource/Bahia> dbp:order :chloroquine_75 .
+
+<http://dbpedia.org/resource/Alagoas>  rdf:name "ALAGOAS"@pt .
+
+:chloroquine_76 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "5500"^^xsd:integer ;
+                 dbo:price "16500"^^xsd:double ;
+                 dbo:date "2020-08-24"^^xsd:date .
+
+<http://dbpedia.org/resource/Alagoas> dbp:order :chloroquine_76 .
+
+:chloroquine_77 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "30000"^^xsd:integer ;
+                 dbo:price "90000"^^xsd:double ;
+                 dbo:date "2020-07-20"^^xsd:date .
+
+<http://dbpedia.org/resource/Alagoas> dbp:order :chloroquine_77 .
+
+:chloroquine_78 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "2500"^^xsd:integer ;
+                 dbo:price "172.5"^^xsd:double ;
+                 dbo:date "2020-03-30"^^xsd:date .
+
+<http://dbpedia.org/resource/Alagoas> dbp:order :chloroquine_78 .
+
+:chloroquine_79 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "5000"^^xsd:integer ;
+                 dbo:price "15000"^^xsd:double ;
+                 dbo:date "2020-04-27"^^xsd:date .
+
+<http://dbpedia.org/resource/Alagoas> dbp:order :chloroquine_79 .
+
+:chloroquine_80 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "24000"^^xsd:integer ;
+                 dbo:price "1656.0"^^xsd:double ;
+                 dbo:date "2020-05-05"^^xsd:date .
+
+<http://dbpedia.org/resource/Alagoas> dbp:order :chloroquine_80 .
+
+:chloroquine_81 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "380500"^^xsd:integer ;
+                 dbo:price "26254.5"^^xsd:double ;
+                 dbo:date "2020-06-05"^^xsd:date .
+
+<http://dbpedia.org/resource/Alagoas> dbp:order :chloroquine_81 .
+
+<http://dbpedia.org/resource/Acre>  rdf:name "ACRE"@pt .
+
+:chloroquine_82 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "5000"^^xsd:integer ;
+                 dbo:price "345.0"^^xsd:double ;
+                 dbo:date "2020-03-31"^^xsd:date .
+
+<http://dbpedia.org/resource/Acre> dbp:order :chloroquine_82 .
+
+:chloroquine_83 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "5000"^^xsd:integer ;
+                 dbo:price "15000"^^xsd:double ;
+                 dbo:date "2020-04-18"^^xsd:date .
+
+<http://dbpedia.org/resource/Acre> dbp:order :chloroquine_83 .
+
+:chloroquine_84 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "8000"^^xsd:integer ;
+                 dbo:price "24000"^^xsd:double ;
+                 dbo:date "2020-05-15"^^xsd:date .
+
+<http://dbpedia.org/resource/Acre> dbp:order :chloroquine_84 .
+
+:chloroquine_85 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "79000"^^xsd:integer ;
+                 dbo:price "5451.0"^^xsd:double ;
+                 dbo:date "2020-06-14"^^xsd:date .
+
+<http://dbpedia.org/resource/Acre> dbp:order :chloroquine_85 .
+
+:chloroquine_86 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "94000"^^xsd:integer ;
+                 dbo:price "282000"^^xsd:double ;
+                 dbo:date "2020-08-07"^^xsd:date .
+
+<http://dbpedia.org/resource/Acre> dbp:order :chloroquine_86 .
+
+<http://dbpedia.org/resource/Amapá>  rdf:name "AMAPÁ"@pt .
+
+:chloroquine_87 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "2000"^^xsd:integer ;
+                 dbo:price "138.0"^^xsd:double ;
+                 dbo:date "2020-03-31"^^xsd:date .
+
+<http://dbpedia.org/resource/Amapá> dbp:order :chloroquine_87 .
+
+:chloroquine_88 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "10000"^^xsd:integer ;
+                 dbo:price "30000"^^xsd:double ;
+                 dbo:date "2020-04-22"^^xsd:date .
+
+<http://dbpedia.org/resource/Amapá> dbp:order :chloroquine_88 .
+
+:chloroquine_89 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "25000"^^xsd:integer ;
+                 dbo:price "75000"^^xsd:double ;
+                 dbo:date "2020-05-20"^^xsd:date .
+
+<http://dbpedia.org/resource/Amapá> dbp:order :chloroquine_89 .
+
+:chloroquine_90 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "73500"^^xsd:integer ;
+                 dbo:price "5071.5"^^xsd:double ;
+                 dbo:date "2020-06-10"^^xsd:date .
+
+<http://dbpedia.org/resource/Amapá> dbp:order :chloroquine_90 .
+
+<http://dbpedia.org/resource/Amazonas>  rdf:name "AMAZONAS"@pt .
+
+:chloroquine_91 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "11000"^^xsd:integer ;
+                 dbo:price "759.0"^^xsd:double ;
+                 dbo:date "2020-03-31"^^xsd:date .
+
+<http://dbpedia.org/resource/Amazonas> dbp:order :chloroquine_91 .
+
+:chloroquine_92 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "50000"^^xsd:integer ;
+                 dbo:price "150000"^^xsd:double ;
+                 dbo:date "2020-04-16"^^xsd:date .
+
+<http://dbpedia.org/resource/Amazonas> dbp:order :chloroquine_92 .
+
+:chloroquine_93 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "110000"^^xsd:integer ;
+                 dbo:price "330000"^^xsd:double ;
+                 dbo:date "2020-05-04"^^xsd:date .
+
+<http://dbpedia.org/resource/Amazonas> dbp:order :chloroquine_93 .
+
+:chloroquine_94 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "200000"^^xsd:integer ;
+                 dbo:price "13800.0"^^xsd:double ;
+                 dbo:date "2020-06-04"^^xsd:date .
+
+<http://dbpedia.org/resource/Amazonas> dbp:order :chloroquine_94 .
+
+:chloroquine_95 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "10000"^^xsd:integer ;
+                 dbo:price "30000"^^xsd:double ;
+                 dbo:date "2020-07-28"^^xsd:date .
+
+<http://dbpedia.org/resource/Amazonas> dbp:order :chloroquine_95 .
+
+:chloroquine_96 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "130000"^^xsd:integer ;
+                 dbo:price "390000"^^xsd:double ;
+                 dbo:date "2021-01-15"^^xsd:date .
+
+<http://dbpedia.org/resource/Amazonas> dbp:order :chloroquine_96 .
+
+<http://dbpedia.org/resource/Ceara>  rdf:name "CEARÁ"@pt .
+
+:chloroquine_97 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "50000"^^xsd:integer ;
+                 dbo:price "150000"^^xsd:double ;
+                 dbo:date "2020-07-24"^^xsd:date .
+
+<http://dbpedia.org/resource/Ceara> dbp:order :chloroquine_97 .
+
+:chloroquine_98 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "40000"^^xsd:integer ;
+                 dbo:price "2760.0"^^xsd:double ;
+                 dbo:date "2020-03-28"^^xsd:date .
+
+<http://dbpedia.org/resource/Ceara> dbp:order :chloroquine_98 .
+
+:chloroquine_99 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "60000"^^xsd:integer ;
+                 dbo:price "180000"^^xsd:double ;
+                 dbo:date "2020-04-24"^^xsd:date .
+
+<http://dbpedia.org/resource/Ceara> dbp:order :chloroquine_99 .
+
+:chloroquine_100 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "202000"^^xsd:integer ;
+                 dbo:price "13938.0"^^xsd:double ;
+                 dbo:date "2020-05-02"^^xsd:date .
+
+<http://dbpedia.org/resource/Ceara> dbp:order :chloroquine_100 .
+
+<http://dbpedia.org/resource/Federal_District_(Brazil)>  rdf:name "DISTRITO FEDERAL"@pt .
+
+:chloroquine_101 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "32000"^^xsd:integer ;
+                 dbo:price "2208.0"^^xsd:double ;
+                 dbo:date "2020-03-29"^^xsd:date .
+
+<http://dbpedia.org/resource/Federal_District_(Brazil)> dbp:order :chloroquine_101 .
+
+:chloroquine_102 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "19000"^^xsd:integer ;
+                 dbo:price "57000"^^xsd:double ;
+                 dbo:date "2020-04-22"^^xsd:date .
+
+<http://dbpedia.org/resource/Federal_District_(Brazil)> dbp:order :chloroquine_102 .
+
+:chloroquine_103 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "21000"^^xsd:integer ;
+                 dbo:price "1449.0"^^xsd:double ;
+                 dbo:date "2020-05-04"^^xsd:date .
+
+<http://dbpedia.org/resource/Federal_District_(Brazil)> dbp:order :chloroquine_103 .
+
+<http://dbpedia.org/resource/Espírito_Santo>  rdf:name "ESPÍRITO SANTO"@pt .
+
+:chloroquine_104 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "94000"^^xsd:integer ;
+                 dbo:price "282000"^^xsd:double ;
+                 dbo:date "2020-07-17"^^xsd:date .
+
+<http://dbpedia.org/resource/Espírito_Santo> dbp:order :chloroquine_104 .
+
+:chloroquine_105 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "8000"^^xsd:integer ;
+                 dbo:price "552.0"^^xsd:double ;
+                 dbo:date "2020-03-28"^^xsd:date .
+
+<http://dbpedia.org/resource/Espírito_Santo> dbp:order :chloroquine_105 .
+
+:chloroquine_106 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "14000"^^xsd:integer ;
+                 dbo:price "42000"^^xsd:double ;
+                 dbo:date "2020-04-22"^^xsd:date .
+
+<http://dbpedia.org/resource/Espírito_Santo> dbp:order :chloroquine_106 .
+
+:chloroquine_107 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "56000"^^xsd:integer ;
+                 dbo:price "3864.0"^^xsd:double ;
+                 dbo:date "2020-05-04"^^xsd:date .
+
+<http://dbpedia.org/resource/Espírito_Santo> dbp:order :chloroquine_107 .
+
+:chloroquine_108 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "4000"^^xsd:integer ;
+                 dbo:price "12000"^^xsd:double ;
+                 dbo:date "2020-09-10"^^xsd:date .
+
+<http://dbpedia.org/resource/Espírito_Santo> dbp:order :chloroquine_108 .
+
+:chloroquine_109 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "1500"^^xsd:integer ;
+                 dbo:price "4500"^^xsd:double ;
+                 dbo:date "2020-10-06"^^xsd:date .
+
+<http://dbpedia.org/resource/Espírito_Santo> dbp:order :chloroquine_109 .
+
+<http://dbpedia.org/resource/Maranhão>  rdf:name "MARANHÃO"@pt .
+
+:chloroquine_110 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "2000"^^xsd:integer ;
+                 dbo:price "138.0"^^xsd:double ;
+                 dbo:date "2020-03-27"^^xsd:date .
+
+<http://dbpedia.org/resource/Maranhão> dbp:order :chloroquine_110 .
+
+:chloroquine_111 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "16000"^^xsd:integer ;
+                 dbo:price "48000"^^xsd:double ;
+                 dbo:date "2020-04-27"^^xsd:date .
+
+<http://dbpedia.org/resource/Maranhão> dbp:order :chloroquine_111 .
+
+:chloroquine_112 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "80000"^^xsd:integer ;
+                 dbo:price "5520.0"^^xsd:double ;
+                 dbo:date "2020-05-04"^^xsd:date .
+
+<http://dbpedia.org/resource/Maranhão> dbp:order :chloroquine_112 .
+
+:chloroquine_113 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "180000"^^xsd:integer ;
+                 dbo:price "12420.0"^^xsd:double ;
+                 dbo:date "2020-06-12"^^xsd:date .
+
+<http://dbpedia.org/resource/Maranhão> dbp:order :chloroquine_113 .
+
+<http://dbpedia.org/resource/Mato_Grosso_do_Sul>  rdf:name "MATO GROSSO DO SUL"@pt .
+
+:chloroquine_114 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "30000"^^xsd:integer ;
+                 dbo:price "90000"^^xsd:double ;
+                 dbo:date "2020-07-21"^^xsd:date .
+
+<http://dbpedia.org/resource/Mato_Grosso_do_Sul> dbp:order :chloroquine_114 .
+
+:chloroquine_115 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "10000"^^xsd:integer ;
+                 dbo:price "690.0"^^xsd:double ;
+                 dbo:date "2020-07-07"^^xsd:date .
+
+<http://dbpedia.org/resource/Mato_Grosso_do_Sul> dbp:order :chloroquine_115 .
+
+:chloroquine_116 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "5000"^^xsd:integer ;
+                 dbo:price "345.0"^^xsd:double ;
+                 dbo:date "2020-03-29"^^xsd:date .
+
+<http://dbpedia.org/resource/Mato_Grosso_do_Sul> dbp:order :chloroquine_116 .
+
+:chloroquine_117 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "5000"^^xsd:integer ;
+                 dbo:price "15000"^^xsd:double ;
+                 dbo:date "2020-04-24"^^xsd:date .
+
+<http://dbpedia.org/resource/Mato_Grosso_do_Sul> dbp:order :chloroquine_117 .
+
+:chloroquine_118 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "6000"^^xsd:integer ;
+                 dbo:price "414.0"^^xsd:double ;
+                 dbo:date "2020-05-05"^^xsd:date .
+
+<http://dbpedia.org/resource/Mato_Grosso_do_Sul> dbp:order :chloroquine_118 .
+
+:chloroquine_119 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "60500"^^xsd:integer ;
+                 dbo:price "181500"^^xsd:double ;
+                 dbo:date "2020-09-14"^^xsd:date .
+
+<http://dbpedia.org/resource/Mato_Grosso_do_Sul> dbp:order :chloroquine_119 .
+
+<http://dbpedia.org/resource/Pará>  rdf:name "PARÁ"@pt .
+
+:chloroquine_120 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "5000"^^xsd:integer ;
+                 dbo:price "345.0"^^xsd:double ;
+                 dbo:date "2020-03-28"^^xsd:date .
+
+<http://dbpedia.org/resource/Pará> dbp:order :chloroquine_120 .
+
+:chloroquine_121 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "10000"^^xsd:integer ;
+                 dbo:price "30000"^^xsd:double ;
+                 dbo:date "2020-04-22"^^xsd:date .
+
+<http://dbpedia.org/resource/Pará> dbp:order :chloroquine_121 .
+
+:chloroquine_122 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "200000"^^xsd:integer ;
+                 dbo:price "13800.0"^^xsd:double ;
+                 dbo:date "2020-05-02"^^xsd:date .
+
+<http://dbpedia.org/resource/Pará> dbp:order :chloroquine_122 .
+
+:chloroquine_123 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "224000"^^xsd:integer ;
+                 dbo:price "15456.0"^^xsd:double ;
+                 dbo:date "2020-06-04"^^xsd:date .
+
+<http://dbpedia.org/resource/Pará> dbp:order :chloroquine_123 .
+
+:chloroquine_124 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "100000"^^xsd:integer ;
+                 dbo:price "300000"^^xsd:double ;
+                 dbo:date "2020-08-03"^^xsd:date .
+
+<http://dbpedia.org/resource/Pará> dbp:order :chloroquine_124 .
+
+:chloroquine_125 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "1500"^^xsd:integer ;
+                 dbo:price "4500"^^xsd:double ;
+                 dbo:date "2020-09-08"^^xsd:date .
+
+<http://dbpedia.org/resource/Pará> dbp:order :chloroquine_125 .
+
+<http://dbpedia.org/resource/Paraíba>  rdf:name "PARAÍBA"@pt .
+
+:chloroquine_126 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "2000"^^xsd:integer ;
+                 dbo:price "138.0"^^xsd:double ;
+                 dbo:date "2020-03-30"^^xsd:date .
+
+<http://dbpedia.org/resource/Paraíba> dbp:order :chloroquine_126 .
+
+:chloroquine_127 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "5000"^^xsd:integer ;
+                 dbo:price "15000"^^xsd:double ;
+                 dbo:date "2020-04-23"^^xsd:date .
+
+<http://dbpedia.org/resource/Paraíba> dbp:order :chloroquine_127 .
+
+:chloroquine_128 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "18000"^^xsd:integer ;
+                 dbo:price "1242.0"^^xsd:double ;
+                 dbo:date "2020-05-07"^^xsd:date .
+
+<http://dbpedia.org/resource/Paraíba> dbp:order :chloroquine_128 .
+
+:chloroquine_129 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "50000"^^xsd:integer ;
+                 dbo:price "3450.0"^^xsd:double ;
+                 dbo:date "2020-06-05"^^xsd:date .
+
+<http://dbpedia.org/resource/Paraíba> dbp:order :chloroquine_129 .
+
+<http://dbpedia.org/resource/Pernambuco>  rdf:name "PERNAMBUCO"@pt .
+
+:chloroquine_130 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "1500"^^xsd:integer ;
+                 dbo:price "4500"^^xsd:double ;
+                 dbo:date "2020-07-17"^^xsd:date .
+
+<http://dbpedia.org/resource/Pernambuco> dbp:order :chloroquine_130 .
+
+:chloroquine_131 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "10000"^^xsd:integer ;
+                 dbo:price "690.0"^^xsd:double ;
+                 dbo:date "2020-03-28"^^xsd:date .
+
+<http://dbpedia.org/resource/Pernambuco> dbp:order :chloroquine_131 .
+
+:chloroquine_132 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "37000"^^xsd:integer ;
+                 dbo:price "111000"^^xsd:double ;
+                 dbo:date "2020-04-23"^^xsd:date .
+
+<http://dbpedia.org/resource/Pernambuco> dbp:order :chloroquine_132 .
+
+:chloroquine_133 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "176000"^^xsd:integer ;
+                 dbo:price "12144.0"^^xsd:double ;
+                 dbo:date "2020-05-02"^^xsd:date .
+
+<http://dbpedia.org/resource/Pernambuco> dbp:order :chloroquine_133 .
+
+<http://dbpedia.org/resource/Piauí>  rdf:name "PIAUÍ"@pt .
+
+:chloroquine_134 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "4500"^^xsd:integer ;
+                 dbo:price "13500"^^xsd:double ;
+                 dbo:date "2020-07-17"^^xsd:date .
+
+<http://dbpedia.org/resource/Piauí> dbp:order :chloroquine_134 .
+
+:chloroquine_135 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "2000"^^xsd:integer ;
+                 dbo:price "138.0"^^xsd:double ;
+                 dbo:date "2020-03-30"^^xsd:date .
+
+<http://dbpedia.org/resource/Piauí> dbp:order :chloroquine_135 .
+
+:chloroquine_136 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "5000"^^xsd:integer ;
+                 dbo:price "15000"^^xsd:double ;
+                 dbo:date "2020-04-27"^^xsd:date .
+
+<http://dbpedia.org/resource/Piauí> dbp:order :chloroquine_136 .
+
+:chloroquine_137 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "13000"^^xsd:integer ;
+                 dbo:price "897.0"^^xsd:double ;
+                 dbo:date "2020-05-06"^^xsd:date .
+
+<http://dbpedia.org/resource/Piauí> dbp:order :chloroquine_137 .
+
+:chloroquine_138 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "10000"^^xsd:integer ;
+                 dbo:price "690.0"^^xsd:double ;
+                 dbo:date "2020-06-06"^^xsd:date .
+
+<http://dbpedia.org/resource/Piauí> dbp:order :chloroquine_138 .
+
+<http://dbpedia.org/resource/Rio_de_Janeiro_(state)>  rdf:name "RIO DE JANEIRO"@pt .
+
+:chloroquine_139 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "74000"^^xsd:integer ;
+                 dbo:price "5106.0"^^xsd:double ;
+                 dbo:date "2020-03-28"^^xsd:date .
+
+<http://dbpedia.org/resource/Rio_de_Janeiro_(state)> dbp:order :chloroquine_139 .
+
+:chloroquine_140 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "100000"^^xsd:integer ;
+                 dbo:price "300000"^^xsd:double ;
+                 dbo:date "2020-04-17"^^xsd:date .
+
+<http://dbpedia.org/resource/Rio_de_Janeiro_(state)> dbp:order :chloroquine_140 .
+
+:chloroquine_141 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "50000"^^xsd:integer ;
+                 dbo:price "3450.0"^^xsd:double ;
+                 dbo:date "2020-05-06"^^xsd:date .
+
+<http://dbpedia.org/resource/Rio_de_Janeiro_(state)> dbp:order :chloroquine_141 .
+
+:chloroquine_142 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "2000"^^xsd:integer ;
+                 dbo:price "6000"^^xsd:double ;
+                 dbo:date "2020-08-18"^^xsd:date .
+
+<http://dbpedia.org/resource/Rio_de_Janeiro_(state)> dbp:order :chloroquine_142 .
+
+:chloroquine_143 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "1500"^^xsd:integer ;
+                 dbo:price "4500"^^xsd:double ;
+                 dbo:date "2020-09-17"^^xsd:date .
+
+<http://dbpedia.org/resource/Rio_de_Janeiro_(state)> dbp:order :chloroquine_143 .
+
+<http://dbpedia.org/resource/Rio_Grande_do_Norte>  rdf:name "RIO GRANDE DO NORTE"@pt .
+
+:chloroquine_144 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "3000"^^xsd:integer ;
+                 dbo:price "207.0"^^xsd:double ;
+                 dbo:date "2020-03-30"^^xsd:date .
+
+<http://dbpedia.org/resource/Rio_Grande_do_Norte> dbp:order :chloroquine_144 .
+
+:chloroquine_145 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "12000"^^xsd:integer ;
+                 dbo:price "36000"^^xsd:double ;
+                 dbo:date "2020-04-27"^^xsd:date .
+
+<http://dbpedia.org/resource/Rio_Grande_do_Norte> dbp:order :chloroquine_145 .
+
+:chloroquine_146 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "21000"^^xsd:integer ;
+                 dbo:price "1449.0"^^xsd:double ;
+                 dbo:date "2020-05-06"^^xsd:date .
+
+<http://dbpedia.org/resource/Rio_Grande_do_Norte> dbp:order :chloroquine_146 .
+
+:chloroquine_147 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "100000"^^xsd:integer ;
+                 dbo:price "6900.0"^^xsd:double ;
+                 dbo:date "2020-06-08"^^xsd:date .
+
+<http://dbpedia.org/resource/Rio_Grande_do_Norte> dbp:order :chloroquine_147 .
+
+:chloroquine_148 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "10000"^^xsd:integer ;
+                 dbo:price "30000"^^xsd:double ;
+                 dbo:date "2020-07-16"^^xsd:date .
+
+<http://dbpedia.org/resource/Rio_Grande_do_Norte> dbp:order :chloroquine_148 .
+
+<http://dbpedia.org/resource/Rondonia>  rdf:name "RONDÔNIA"@pt .
+
+:chloroquine_149 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "2000"^^xsd:integer ;
+                 dbo:price "138.0"^^xsd:double ;
+                 dbo:date "2020-03-31"^^xsd:date .
+
+<http://dbpedia.org/resource/Rondonia> dbp:order :chloroquine_149 .
+
+:chloroquine_150 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "5000"^^xsd:integer ;
+                 dbo:price "15000"^^xsd:double ;
+                 dbo:date "2020-04-23"^^xsd:date .
+
+<http://dbpedia.org/resource/Rondonia> dbp:order :chloroquine_150 .
+
+:chloroquine_151 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "14000"^^xsd:integer ;
+                 dbo:price "42000"^^xsd:double ;
+                 dbo:date "2020-05-11"^^xsd:date .
+
+<http://dbpedia.org/resource/Rondonia> dbp:order :chloroquine_151 .
+
+:chloroquine_152 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "50000"^^xsd:integer ;
+                 dbo:price "3450.0"^^xsd:double ;
+                 dbo:date "2020-06-12"^^xsd:date .
+
+<http://dbpedia.org/resource/Rondonia> dbp:order :chloroquine_152 .
+
+:chloroquine_153 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "100000"^^xsd:integer ;
+                 dbo:price "300000"^^xsd:double ;
+                 dbo:date "2020-08-07"^^xsd:date .
+
+<http://dbpedia.org/resource/Rondonia> dbp:order :chloroquine_153 .
+
+<http://dbpedia.org/resource/Roraima>  rdf:name "RORAIMA"@pt .
+
+:chloroquine_154 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "2000"^^xsd:integer ;
+                 dbo:price "138.0"^^xsd:double ;
+                 dbo:date "2020-03-31"^^xsd:date .
+
+<http://dbpedia.org/resource/Roraima> dbp:order :chloroquine_154 .
+
+:chloroquine_155 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "5000"^^xsd:integer ;
+                 dbo:price "15000"^^xsd:double ;
+                 dbo:date "2020-04-16"^^xsd:date .
+
+<http://dbpedia.org/resource/Roraima> dbp:order :chloroquine_155 .
+
+:chloroquine_156 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "13000"^^xsd:integer ;
+                 dbo:price "39000"^^xsd:double ;
+                 dbo:date "2020-05-15"^^xsd:date .
+
+<http://dbpedia.org/resource/Roraima> dbp:order :chloroquine_156 .
+
+:chloroquine_157 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "80000"^^xsd:integer ;
+                 dbo:price "5520.0"^^xsd:double ;
+                 dbo:date "2020-06-05"^^xsd:date .
+
+<http://dbpedia.org/resource/Roraima> dbp:order :chloroquine_157 .
+
+:chloroquine_158 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "140000"^^xsd:integer ;
+                 dbo:price "9660.0"^^xsd:double ;
+                 dbo:date "2020-07-05"^^xsd:date .
+
+<http://dbpedia.org/resource/Roraima> dbp:order :chloroquine_158 .
+
+:chloroquine_159 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "100500"^^xsd:integer ;
+                 dbo:price "6934.5"^^xsd:double ;
+                 dbo:date "2020-06-29"^^xsd:date .
+
+<http://dbpedia.org/resource/Roraima> dbp:order :chloroquine_159 .
+
+:chloroquine_160 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "80000"^^xsd:integer ;
+                 dbo:price "240000"^^xsd:double ;
+                 dbo:date "2020-09-14"^^xsd:date .
+
+<http://dbpedia.org/resource/Roraima> dbp:order :chloroquine_160 .
+
+<http://dbpedia.org/resource/São_Paulo_(state)>  rdf:name "SÃO PAULO"@pt .
+
+:chloroquine_161 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "170000"^^xsd:integer ;
+                 dbo:price "11730.0"^^xsd:double ;
+                 dbo:date "2020-03-28"^^xsd:date .
+
+<http://dbpedia.org/resource/São_Paulo_(state)> dbp:order :chloroquine_161 .
+
+:chloroquine_162 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "316000"^^xsd:integer ;
+                 dbo:price "948000"^^xsd:double ;
+                 dbo:date "2020-04-20"^^xsd:date .
+
+<http://dbpedia.org/resource/São_Paulo_(state)> dbp:order :chloroquine_162 .
+
+:chloroquine_163 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "500000"^^xsd:integer ;
+                 dbo:price "34500.0"^^xsd:double ;
+                 dbo:date "2020-05-06"^^xsd:date .
+
+<http://dbpedia.org/resource/São_Paulo_(state)> dbp:order :chloroquine_163 .
+
+:chloroquine_164 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "23500"^^xsd:integer ;
+                 dbo:price "70500"^^xsd:double ;
+                 dbo:date "2020-09-17"^^xsd:date .
+
+<http://dbpedia.org/resource/São_Paulo_(state)> dbp:order :chloroquine_164 .
+
+:chloroquine_165 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "27500"^^xsd:integer ;
+                 dbo:price "82500"^^xsd:double ;
+                 dbo:date "2021-03-30"^^xsd:date .
+
+<http://dbpedia.org/resource/São_Paulo_(state)> dbp:order :chloroquine_165 .
+
+:chloroquine_166 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "100000"^^xsd:integer ;
+                 dbo:price "300000"^^xsd:double ;
+                 dbo:date "2021-04-27"^^xsd:date .
+
+<http://dbpedia.org/resource/São_Paulo_(state)> dbp:order :chloroquine_166 .
+
+<http://dbpedia.org/resource/Sergipe>  rdf:name "SERGIPE"@pt .
+
+:chloroquine_167 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "3500"^^xsd:integer ;
+                 dbo:price "241.5"^^xsd:double ;
+                 dbo:date "2020-03-31"^^xsd:date .
+
+<http://dbpedia.org/resource/Sergipe> dbp:order :chloroquine_167 .
+
+:chloroquine_168 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "5000"^^xsd:integer ;
+                 dbo:price "15000"^^xsd:double ;
+                 dbo:date "2020-04-23"^^xsd:date .
+
+<http://dbpedia.org/resource/Sergipe> dbp:order :chloroquine_168 .
+
+:chloroquine_169 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "6000"^^xsd:integer ;
+                 dbo:price "414.0"^^xsd:double ;
+                 dbo:date "2020-05-04"^^xsd:date .
+
+<http://dbpedia.org/resource/Sergipe> dbp:order :chloroquine_169 .
+
+<http://dbpedia.org/resource/Tocantins>  rdf:name "TOCANTINS"@pt .
+
+:chloroquine_170 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "32000"^^xsd:integer ;
+                 dbo:price "96000"^^xsd:double ;
+                 dbo:date "2020-07-24"^^xsd:date .
+
+<http://dbpedia.org/resource/Tocantins> dbp:order :chloroquine_170 .
+
+:chloroquine_171 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "2000"^^xsd:integer ;
+                 dbo:price "138.0"^^xsd:double ;
+                 dbo:date "2020-03-31"^^xsd:date .
+
+<http://dbpedia.org/resource/Tocantins> dbp:order :chloroquine_171 .
+
+:chloroquine_172 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "5000"^^xsd:integer ;
+                 dbo:price "15000"^^xsd:double ;
+                 dbo:date "2020-04-01"^^xsd:date .
+
+<http://dbpedia.org/resource/Tocantins> dbp:order :chloroquine_172 .
+
+:chloroquine_173 rdf:type dbo:drug ;
+                 rdfs:label "chloroquine"^^xsd:string ;
+                 rdf:isPrimaryTopicOf wiki-en:Chloroquine ;
+                 owl:sameAs dbr:Chloroquine ;
+                 dbp:amount "4000"^^xsd:integer ;
+                 dbo:price "276.0"^^xsd:double ;
+                 dbo:date "2020-05-04"^^xsd:date .
+
+<http://dbpedia.org/resource/Tocantins> dbp:order :chloroquine_173 .
+

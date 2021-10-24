@@ -1,0 +1,53 @@
+name,label,Total_quantity
+ACRE,ICU Ventilator,110
+ACRE,Transport Ventilator,120
+ALAGOAS,ICU Ventilator,190
+ALAGOAS,Transport Ventilator,137
+AMAPÁ,ICU Ventilator,143
+AMAPÁ,Transport Ventilator,30
+AMAZONAS,ICU Ventilator,455
+AMAZONAS,Transport Ventilator,218
+BAHIA,ICU Ventilator,705
+BAHIA,Transport Ventilator,578
+CEARÁ,ICU Ventilator,161
+CEARÁ,Transport Ventilator,236
+DISTRITO FEDERAL,ICU Ventilator,192
+DISTRITO FEDERAL,Transport Ventilator,122
+ESPÍRITO SANTO,ICU Ventilator,265
+ESPÍRITO SANTO,Transport Ventilator,205
+GOIÁS,ICU Ventilator,851
+GOIÁS,Transport Ventilator,463
+MARANHÃO,ICU Ventilator,191
+MARANHÃO,Transport Ventilator,216
+MATO GROSSO,ICU Ventilator,174
+MATO GROSSO,Transport Ventilator,204
+MATO GROSSO DO SUL,ICU Ventilator,248
+MATO GROSSO DO SUL,Transport Ventilator,165
+MINAS GERAIS,ICU Ventilator,626
+MINAS GERAIS,Transport Ventilator,629
+PARANÁ,ICU Ventilator,825
+PARANÁ,Transport Ventilator,457
+PARÁ,ICU Ventilator,915
+PARÁ,Transport Ventilator,586
+PERNAMBUCO,ICU Ventilator,168
+PERNAMBUCO,Transport Ventilator,280
+PIAUÍ,ICU Ventilator,193
+PIAUÍ,Transport Ventilator,132
+RIO DE JANEIRO,ICU Ventilator,1029
+RIO DE JANEIRO,Transport Ventilator,885
+RIO GRANDE DO NORTE,ICU Ventilator,213
+RIO GRANDE DO NORTE,Transport Ventilator,185
+RIO GRANDE DO SUL,ICU Ventilator,862
+RIO GRANDE DO SUL,Transport Ventilator,467
+RONDÔNIA,ICU Ventilator,235
+RONDÔNIA,Transport Ventilator,176
+RORAIMA,ICU Ventilator,115
+RORAIMA,Transport Ventilator,97
+SANTA CATARINA,ICU Ventilator,258
+SANTA CATARINA,Transport Ventilator,239
+SERGIPE,ICU Ventilator,107
+SERGIPE,Transport Ventilator,89
+SÃO PAULO,ICU Ventilator,806
+SÃO PAULO,Transport Ventilator,737
+TOCANTINS,ICU Ventilator,145
+TOCANTINS,Transport Ventilator,130

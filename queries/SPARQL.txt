@@ -1,0 +1,154 @@
+#QUERY 1
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbp: <http://dbpedia.org/property/>
+select 
+?name (sum(?qnt) as ?total_amount) (sum(?price) as ?total_spent) (?total_spent/?total_amount as ?spent_per_ventilator)
+from named <http://example.com/ventilator>
+where 
+{ 
+    GRAPH  <http://example.com/ventilator> 
+    {
+        ?s dbp:order ?vent.
+		?vent dbo:date ?date .
+        ?vent dbp:amount ?qnt .
+        ?vent dbo:price ?price .
+        ?s rdf:name ?name .
+        filter regex(str(?date), "^2020-06", "i")
+    } 
+} 
+group by ?name
+order by ?name 
+
+
+
+
+
+
+
+#QUERY 2
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbp: <http://dbpedia.org/property/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+select 
+?name ?d ?type (sum(?qnt) as ?total_amount) (sum(?price) as ?total_spent) (?total_spent/?total_amount as ?spent_per_ventilator)
+from named <http://example.com/ventilator>
+where 
+{ 
+    GRAPH  <http://example.com/ventilator> 
+    {
+        ?s dbp:order ?vent.
+		?vent dbo:date ?date .
+        ?vent dbp:amount ?qnt .
+        ?vent dbo:price ?price .
+        ?vent rdfs:label ?label.
+        ?s rdf:name ?name .
+        
+        BIND(strafter(?label, " ") as ?type).
+        BIND(str(?date) as ?str_date) .
+        BIND(substr(?str_date, 0, strlen(?str_date) - 2) as ?d) .
+    } 
+}
+group by ?name ?d ?type
+order by ?name ?d ?type
+
+
+
+
+#QUERY 3
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbp: <http://dbpedia.org/property/>
+select 
+?name (sum(?qnt) as ?total_amount) (sum(?price) as ?total_spent) (?total_spent/?total_amount as ?spent_per_ventilator)
+from named <http://example.com/ventilator>
+where 
+{ 
+    GRAPH  <http://example.com/ventilator> 
+    {
+        ?s dbp:order ?vent.
+        ?vent dbp:amount ?qnt .
+        ?vent dbo:price ?price .
+        ?s rdf:name ?name .
+    } 
+} 
+group by ?name
+order by ?name
+
+
+
+
+
+#QUERY 4
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbp: <http://dbpedia.org/property/>
+PREFIX : <http://example.com/>
+select 
+?name ?d (sum(?qnt) as ?total_amount) (sum(?price) as ?total_spent) (?total_spent/?total_amount as ?spent_per_chloro)
+from named <http://example.com/chloroquine>
+where 
+{ 
+    GRAPH  <http://example.com/chloroquine> 
+    {
+        ?s dbp:order ?chloro.
+		?chloro dbo:date ?date .
+        ?chloro dbp:amount ?qnt .
+        ?chloro dbo:price ?price .
+        ?s rdf:name ?name .
+        
+        BIND(str(?date) as ?str_date) .
+        BIND(substr(?str_date, 0, strlen(?str_date) - 2) as ?d) .
+    } 
+} 
+group by ?name ?d
+order by ?name ?d
+
+
+
+
+#QUERY 5 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbp: <http://dbpedia.org/property/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+select 
+?name ?d (ucase(?type) as ?t) (sum(?qnt) as ?total_amount) (sum(?price) as ?total_spent) (?total_spent/?total_amount as ?spent_per_ventilator)
+from named <http://example.com/ventilator>
+from named <http://example.com/chloroquine>
+where 
+{ 
+    {
+    GRAPH  <http://example.com/ventilator> 
+    {
+        ?s dbp:order ?vent.
+		?vent dbo:date ?date .
+        ?vent dbp:amount ?qnt .
+        ?vent dbo:price ?price .
+        ?vent rdfs:label ?label.
+        ?s rdf:name ?name .
+        
+        BIND(strafter(?label, " ") as ?type).
+        BIND(str(?date) as ?str_date) .
+        BIND(substr(?str_date, 0, strlen(?str_date) - 2) as ?d) .
+    } 
+    }
+   UNion
+    {
+    	GRAPH  <http://example.com/chloroquine> 
+    	{
+        ?s dbp:order ?chloro.
+		?chloro dbo:date ?date .
+        ?chloro dbp:amount ?qnt .
+        ?chloro dbo:price ?price .
+        ?chloro rdfs:label ?type.
+        ?s rdf:name ?name .
+
+        BIND(str(?date) as ?str_date) .
+        BIND(substr(?str_date, 0, strlen(?str_date) - 2) as ?d) .
+    	} 
+	}
+}
+group by ?name ?d ?type
+order by ?name ?d ?type
